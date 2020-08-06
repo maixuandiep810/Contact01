@@ -9,11 +9,15 @@
 import UIKit
 
 class DetailTableViewCell : UITableViewCell {
+    
     //---
     // MARK: Properties
     //---
     @IBOutlet weak var content :UILabel!
-        
+    
+    //---
+    // MARK: default functions
+    //---
     override func awakeFromNib() {
         super.awakeFromNib()
     }

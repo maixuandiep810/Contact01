@@ -79,10 +79,6 @@ class DetailViewController: UIViewController, UITableViewDataSource, UITableView
     // MARK: Actions
     //---
     @objc func goToEditView() {
-        
-        self.navigationItem.backBarButtonItem?.title = "Cancel"
-        let next = self.storyboard?.instantiateViewController(withIdentifier: StoryboardIdString.EditViewController) as! EditViewController
-        self.navigationController?.pushViewController(next, animated: true)
     }
 
 }

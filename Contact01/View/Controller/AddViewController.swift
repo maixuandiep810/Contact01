@@ -22,6 +22,8 @@ class AddViewController: UITableViewController {
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var addressTextField: UITextField!
     var delegate: AddContactDelegate?
+    
+    
     //---
     // MARK: Life Cycle Functions
     //---
@@ -39,9 +41,11 @@ class AddViewController: UITableViewController {
     // MARK: Actions
     //---
     @objc func handleDone() {
-        var contact: Contact! = UIInformation.getContactFromAddView(addView: self)
-        delegate?.addContact(contact: contact)
-        self.navigationController?.popToRootViewController(animated: true)
+        if AddView_UI_Information.check_UI_Information(addView: self) {
+            var contact: Contact! = AddView_UI_Information.getContactFromAddView(addView: self)
+            delegate?.addContact(contact: contact)
+            self.navigationController?.popToRootViewController(animated: true)
+        }
     }
 
 }

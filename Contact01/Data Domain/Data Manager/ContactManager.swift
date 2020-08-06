@@ -12,14 +12,23 @@ import UIKit
 
 class ContactManager {
     
+    //---
+    // MARK: Properties
+    //---
     static let shared = ContactManager()
     let appDelegate = UIApplication.shared.delegate as! AppDelegate
     lazy var context = NSManagedObjectContext.init(concurrencyType: .mainQueueConcurrencyType)
     
+    /*
+     * Create Contact object : NSManagedObject
+     */
     func initContactObject() -> Contact {
         return Contact(context: context)
     }
     
+    /*
+     * READ list of contact from Sqlite using coreData
+     */
     func fetchData() -> [Contact] {
         var myContacts :[Contact] = []
         let fetchRequest = NSFetchRequest<Contact>(entityName: "Contact")
@@ -33,7 +42,10 @@ class ContactManager {
         }
         return []
     }
-    
+
+    /*
+     * ADD a Contact object to Sqlite using coreData
+     */
     func saveData(contact: Contact) -> Bool {
         context = appDelegate.persistentContainer.viewContext
         let newContact = Contact(context: context)
@@ -48,6 +60,9 @@ class ContactManager {
         return false
     }
     
+    /*
+     * DELETE Contact object from Sqlite using coreData
+     */
     func deleteData(name: String) {
         
         let deleteFetchRequest = NSFetchRequest<Contact>(entityName: "Contact")

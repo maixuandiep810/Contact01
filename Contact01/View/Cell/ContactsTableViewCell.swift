@@ -17,12 +17,16 @@ class ContactTableViewCell: UITableViewCell {
     @IBOutlet weak var mobileLabel :UILabel!
     
     var contact: Contact = ContactManager.shared.initContactObject() {
+        // set UI when contact is available
         didSet {
             nameLabel.text = contact.name
             mobileLabel.text = contact.mobile
         }
     }
     
+    //---
+    // MARK: default functions
+    //---
     override func awakeFromNib() {
         super.awakeFromNib()
     }

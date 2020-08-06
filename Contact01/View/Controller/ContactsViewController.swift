@@ -28,6 +28,7 @@ class ContactsViewController: UIViewController, UITableViewDelegate, UITableView
 //        self.navigationItem.rightBarButtonItem?.action = #selector(addButton)
     }
     
+    
     //---
     // MARK: UITableViewDataSource
     //---
@@ -62,8 +63,10 @@ class ContactsViewController: UIViewController, UITableViewDelegate, UITableView
         contactsTableView.reloadData()
     }
     
+    
+    
     //---
-    // MARK: AddContactDelegate
+    // MARK: DetailDataSource
     //---
     func getContact() -> Contact {
         let indexPath = contactsTableView.indexPathForSelectedRow as! IndexPath

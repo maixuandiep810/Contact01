@@ -15,12 +15,5 @@ class ContactsTableView: UITableView {
     //---
     @IBOutlet weak var contactTableViewCell :ContactTableViewCell!
     
-    //---
-    // MARK: Properties
-    //---
-    
-    //---
-    // MARK: Properties
-    //---
 
 }

@@ -12,6 +12,10 @@ import CoreData
 
 @objc(Contact)
 public class Contact: NSManagedObject {
+    
+    /*
+     * Copy value of a contact object
+     */
     func copyValue(contact: Contact) {
         name = contact.name
         mobile = contact.mobile

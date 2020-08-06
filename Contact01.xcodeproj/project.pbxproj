@@ -15,16 +15,15 @@
 		5C06380124DA5E9B006FEA02 /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C06380024DA5E9B006FEA02 /* ContactsViewController.swift */; };
 		5C06380624DA5F3A006FEA02 /* ContactsTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C06380524DA5F3A006FEA02 /* ContactsTableView.swift */; };
 		5C06380824DA66D9006FEA02 /* ContactsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C06380724DA66D9006FEA02 /* ContactsTableViewCell.swift */; };
-		5C06380A24DA76BA006FEA02 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C06380924DA76BA006FEA02 /* EditViewController.swift */; };
 		5CFEE66524DB17540067FB88 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFEE66424DB17540067FB88 /* DetailViewController.swift */; };
 		5CFEE66724DB181C0067FB88 /* StoryboardIdString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFEE66624DB181C0067FB88 /* StoryboardIdString.swift */; };
 		5CFEE69324DB8B110067FB88 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5CFEE69124DB8B110067FB88 /* Model.xcdatamodeld */; };
 		5CFEE6A224DB8DAF0067FB88 /* ContactManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFEE6A124DB8DAF0067FB88 /* ContactManager.swift */; };
-		5CFEE6A924DB93890067FB88 /* Contact+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFEE6A724DB93890067FB88 /* Contact+CoreDataClass.swift */; };
-		5CFEE6AA24DB93890067FB88 /* Contact+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFEE6A824DB93890067FB88 /* Contact+CoreDataProperties.swift */; };
 		5CFEE6AC24DB96760067FB88 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFEE6AB24DB96760067FB88 /* AddViewController.swift */; };
-		5CFEE6AF24DBA3160067FB88 /* UIInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFEE6AE24DBA3160067FB88 /* UIInformation.swift */; };
+		5CFEE6AF24DBA3160067FB88 /* AddViewUIInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFEE6AE24DBA3160067FB88 /* AddViewUIInformation.swift */; };
 		5CFEE6B124DBDADE0067FB88 /* DetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFEE6B024DBDADE0067FB88 /* DetailTableViewCell.swift */; };
+		5CFEE6B824DBEDB90067FB88 /* Contact+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFEE6B624DBEDB90067FB88 /* Contact+CoreDataClass.swift */; };
+		5CFEE6B924DBEDB90067FB88 /* Contact+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFEE6B724DBEDB90067FB88 /* Contact+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,16 +37,15 @@
 		5C06380024DA5E9B006FEA02 /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
 		5C06380524DA5F3A006FEA02 /* ContactsTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsTableView.swift; sourceTree = "<group>"; };
 		5C06380724DA66D9006FEA02 /* ContactsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsTableViewCell.swift; sourceTree = "<group>"; };
-		5C06380924DA76BA006FEA02 /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
 		5CFEE66424DB17540067FB88 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		5CFEE66624DB181C0067FB88 /* StoryboardIdString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardIdString.swift; sourceTree = "<group>"; };
 		5CFEE69224DB8B110067FB88 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		5CFEE6A124DB8DAF0067FB88 /* ContactManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactManager.swift; sourceTree = "<group>"; };
-		5CFEE6A724DB93890067FB88 /* Contact+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Contact+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
-		5CFEE6A824DB93890067FB88 /* Contact+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Contact+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 		5CFEE6AB24DB96760067FB88 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
-		5CFEE6AE24DBA3160067FB88 /* UIInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIInformation.swift; sourceTree = "<group>"; };
+		5CFEE6AE24DBA3160067FB88 /* AddViewUIInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewUIInformation.swift; sourceTree = "<group>"; };
 		5CFEE6B024DBDADE0067FB88 /* DetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableViewCell.swift; sourceTree = "<group>"; };
+		5CFEE6B624DBEDB90067FB88 /* Contact+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Contact+CoreDataClass.swift"; sourceTree = "<group>"; };
+		5CFEE6B724DBEDB90067FB88 /* Contact+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Contact+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +106,6 @@
 			isa = PBXGroup;
 			children = (
 				5C06380024DA5E9B006FEA02 /* ContactsViewController.swift */,
-				5C06380924DA76BA006FEA02 /* EditViewController.swift */,
 				5CFEE66424DB17540067FB88 /* DetailViewController.swift */,
 				5CFEE6AB24DB96760067FB88 /* AddViewController.swift */,
 			);
@@ -145,8 +142,8 @@
 		5C0637FD24DA5B51006FEA02 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				5CFEE6A724DB93890067FB88 /* Contact+CoreDataClass.swift */,
-				5CFEE6A824DB93890067FB88 /* Contact+CoreDataProperties.swift */,
+				5CFEE6B624DBEDB90067FB88 /* Contact+CoreDataClass.swift */,
+				5CFEE6B724DBEDB90067FB88 /* Contact+CoreDataProperties.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -170,7 +167,7 @@
 		5CFEE6AD24DBA2920067FB88 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
-				5CFEE6AE24DBA3160067FB88 /* UIInformation.swift */,
+				5CFEE6AE24DBA3160067FB88 /* AddViewUIInformation.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -246,18 +243,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5CFEE6AA24DB93890067FB88 /* Contact+CoreDataProperties.swift in Sources */,
 				5C06380824DA66D9006FEA02 /* ContactsTableViewCell.swift in Sources */,
-				5CFEE6AF24DBA3160067FB88 /* UIInformation.swift in Sources */,
+				5CFEE6AF24DBA3160067FB88 /* AddViewUIInformation.swift in Sources */,
 				5CFEE6B124DBDADE0067FB88 /* DetailTableViewCell.swift in Sources */,
+				5CFEE6B924DBEDB90067FB88 /* Contact+CoreDataProperties.swift in Sources */,
 				5C06380624DA5F3A006FEA02 /* ContactsTableView.swift in Sources */,
 				5C0637FB24DA5992006FEA02 /* TableViewCellIdString.swift in Sources */,
 				5C0637E524DA588B006FEA02 /* AppDelegate.swift in Sources */,
 				5C06380124DA5E9B006FEA02 /* ContactsViewController.swift in Sources */,
 				5CFEE66724DB181C0067FB88 /* StoryboardIdString.swift in Sources */,
+				5CFEE6B824DBEDB90067FB88 /* Contact+CoreDataClass.swift in Sources */,
 				5CFEE69324DB8B110067FB88 /* Model.xcdatamodeld in Sources */,
-				5C06380A24DA76BA006FEA02 /* EditViewController.swift in Sources */,
-				5CFEE6A924DB93890067FB88 /* Contact+CoreDataClass.swift in Sources */,
 				5CFEE6A224DB8DAF0067FB88 /* ContactManager.swift in Sources */,
 				5CFEE6AC24DB96760067FB88 /* AddViewController.swift in Sources */,
 				5CFEE66524DB17540067FB88 /* DetailViewController.swift in Sources */,
