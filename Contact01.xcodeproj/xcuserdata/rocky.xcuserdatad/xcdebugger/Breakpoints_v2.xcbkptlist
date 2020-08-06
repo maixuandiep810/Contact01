@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Contact01/View/Cell/ContactsTableViewCell.swift"
+            timestampString = "618392080.677187"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "contact"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Contact01.ContactTableViewCell.contact.modify : Contact01.Contact"
+                  moduleName = "Contact01"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rocky/Desktop/Contact01/Contact01/View/Cell/ContactsTableViewCell.swift"
+                  timestampString = "618384268.122004"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "26">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Contact01.ContactTableViewCell.contact.modify : Contact01.Contact with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Contact01"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rocky/Desktop/Contact01/Contact01/View/Cell/ContactsTableViewCell.swift"
+                  timestampString = "618384268.1246769"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "27">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Contact01.ContactTableViewCell.init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; Contact01.ContactTableViewCell"
+                  moduleName = "Contact01"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rocky/Desktop/Contact01/Contact01/View/Cell/ContactsTableViewCell.swift"
+                  timestampString = "618384268.131968"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "410">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Contact01.ContactTableViewCell.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Contact01.ContactTableViewCell&gt;"
+                  moduleName = "Contact01"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rocky/Desktop/Contact01/Contact01/View/Cell/ContactsTableViewCell.swift"
+                  timestampString = "618384268.13469"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "318">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Contact01/View/Cell/ContactsTableViewCell.swift"
+            timestampString = "618392080.677305"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "contact"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Contact01/View/Cell/ContactsTableViewCell.swift"
+            timestampString = "618392080.677376"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "contact"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
